@@ -1,0 +1,17 @@
+.expenses-list {
+  list-style: none;
+  padding: 0;
+  transition: all 1s ease-out;
+}
+
+.expenses-list__fallback {
+  color: white;
+  text-align: center;
+  transition: all 1s ease-out;
+}
+
+@media screen and (max-width: 600px) {
+  .expenses-list {
+    overflow: hidden;
+  }
+}
